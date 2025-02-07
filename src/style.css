@@ -1,0 +1,291 @@
+body {
+    font-family: "Roboto", serif;
+    font-style: normal;
+    background-color:rgb(158, 97, 48);
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-image: linear-gradient(rgba(238, 80, 17, 0.2), rgba(243, 196, 65, 0.3)),
+      url("../images/sc_img_00.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    padding: 200px 0;
+  }
+  
+  header h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 128px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  header h2 {
+    font-size: 40px;
+    font-weight: 300;
+    margin: 0;
+  }
+  
+  header h3 {
+    font-size: 24px;
+    letter-spacing: 5px;
+    margin: 0;
+  }
+  
+  header a {
+    font-size: 16px;
+    background-color:rgb(206, 74, 13);
+    color: #fff;
+    padding: 16px 32px;
+    border-radius: 50px;
+    text-decoration: none;
+    margin-top: 32px;
+    display: inline-block;
+  }
+  
+  section {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  main {
+    background-color: #fff;
+  }
+  
+  main h3 {
+    font-family: "Playfair Display", serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: #272044;
+    margin: 0;
+    margin-right: 60px;
+  }
+  
+  main h4 {
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: 700;
+    margin: 0;
+    text-align: left;
+  }
+  
+  main h5 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0;
+    text-align: left;
+  }
+  
+  .sabrina-artist {
+    font-size: 13px;
+    font-weight: 900;
+    color: rgb(206, 74, 13);
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding-top: 60px;
+  }
+  
+  .sabrina-artist span {
+    background-color:  #ece7f8;
+    padding: 2px;
+  }
+
+  div img {
+    width: 100%;
+    max-width: 600px;
+    height: 100vh;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .section h5 {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding-top: 60px;
+  }
+  .artist-text {
+    font-size: 16px;
+    opacity: 0.7;
+    margin-right: 40px;
+    line-height: 1.5;
+  }
+  
+  .grid {
+    display: grid;
+    gap: 34px;
+  }
+  
+  .grid-2-columns {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .grid-3-columns {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .secondary {
+    background-image: linear-gradient(rgba(161, 77, 8, 0.8), rgba(117, 18, 5, 0.9)),
+      url(/images/card-background.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #272044;
+    padding: 60px 0 60px;
+  }
+  
+  .secondary h2 {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding-top: 60px;
+  }
+  
+  .secondary h3 {
+    font-family: "Playfair Display", serif;
+    color: #fff;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .secondary p {
+    font-size: 16px;
+    text-align: left;
+  }
+  
+  .card {
+    background-color: #fff;
+    text-align: center;
+    border-radius: 15px;
+    max-width: 350px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .card-header {
+    width: 100%;
+    height: 200px;
+  }
+  
+  .card-header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-footer {
+    padding: 0 30px 30px;
+  }
+  
+  .btn {
+    display: block;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    padding: 16px 32px;
+    background-color: rgb(206, 74, 13);
+    text-decoration: none;
+    border-radius: 50px;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  iframe {
+    width: 80%;
+    aspect-ratio: 1/1;
+    display: block;
+    margin: 30px auto;
+  }
+  
+  footer {
+    background-image: linear-gradient(rgba(238, 80, 17, 0.2), rgba(243, 196, 65, 0.3)),
+      url("../images/sc_img_00.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 30px 0;
+  }
+  
+  footer li {
+    margin: 0;
+    list-style: none;
+    line-height: 2.3;
+    padding: 0;
+  }
+  
+  footer h3 {
+    font-size: 24px;
+    font-family: "Playfair Display", serif;
+    padding-left: 30px;
+  }
+  
+  footer p {
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 30px;
+  }
+  
+  footer a {
+    color: #fff;
+  }
+  
+  .coder {
+    text-align: center;
+    padding-top: 80px;
+  }
+  
+  @media (max-width: 1030px) {
+    header {
+      padding: 60px 0;
+    }
+    header h1 {
+      font-size: 48px;
+    }
+    header h2 {
+      font-size: 20px;
+    }
+    header h3 {
+      font-size: 12px;
+    }
+    .secondary {
+      padding: 0;
+    }
+    .grid {
+      grid-template-columns: 1fr;
+      padding: 20px;
+    }
+    main h2 {
+      margin-top: 0;
+    }
+    img {
+      width: 100%;
+    }
+    iframe {
+      padding: 0;
+      margin: 0;
+      aspect-ratio: 16/9;
+    }
+  }
